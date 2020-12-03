@@ -77,7 +77,7 @@ async def sessions_make(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "Go to Saved Messages",
+                        "✅ : Go To Saved Messages",
                         url=f"tg://user?id={message.from_user.id}",
                     )
                 ]
@@ -104,5 +104,5 @@ async def sessions_make(client, message):
             await message.reply(strings.BOTTOKENINVALID)
             return
         await message.reply(
-            f"**Here is your Bot Session:**\n```{(await app.export_session_string())}```\n\nHappy pyrogramming"
+            f"**✅ Here is Your Bot Session:**\n```{(await app.export_session_string())}```\n\n©️ @DamienSoukara"
         )
