@@ -72,13 +72,13 @@ async def sessions_make(client, message):
         except errors.PhoneCodeExpired:
             await message.reply(strings.PHONECODEINVALID)
             return
-        await app.send_message("me", f"```{(await app.export_session_string())}```")
+        await app.send_message("me", f"@DamienSoukara #HU_STRING_SESSION\n\n```{(await app.export_session_string())}```")
         button = InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
                         "✅ : Go To Saved Messages",
-                        url=f"tg://user?id={message.from_user.id}",
+                        url=f"tg://openmessage?user_id={message.from_user.id}",
                     )
                 ]
             ]
