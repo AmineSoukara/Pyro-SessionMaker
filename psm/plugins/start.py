@@ -27,7 +27,7 @@ async def help_button(_, query):
 async def help_button1(_, query):
     buttons = [
         [
-            InlineKeyboardButton("Previous", callback_data="help_1"),
+            InlineKeyboardButton("⬅️ Previous", callback_data="help_1"),
             InlineKeyboardButton("Next ➡️", callback_data="help_3"),
         ]
     ]
