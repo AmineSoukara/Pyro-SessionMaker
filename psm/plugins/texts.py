@@ -1,5 +1,5 @@
 helptext = """
-Hi, This is Pyrogram String Session Generator Bot. I Will Generate String Session Of Your Telegram Account Or Your Bot Token.
+[⭕](https://i.imgur.com/JoRF7ce.jpg) Hi, This is Pyrogram String Session Generator Bot. I Will Generate String Session Of Your Telegram Account Or Your Bot Token.
 
 To Start Generating String Session Press /proceed 
 
