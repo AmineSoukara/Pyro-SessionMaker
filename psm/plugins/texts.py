@@ -1,12 +1,14 @@
 helptext = """
-I am Pyrogram Session maker,
+Hi, This is Pyrogram String Session Generator Bot. I Will Generate String Session Of Your Telegram Account Or Your Bot Token.
 
-I can make session strings for you on the go
+To Start Generating String Session Press /proceed 
+
+By @DamienSoukara
 """
 
 helptext1 = """
 **📖 Help (1 of 3)**
-you can get API_ID and API_HASH value by visiting https://my.telegram.org or @usetgxbot
+you can get API_ID and API_HASH value by visiting https://my.telegram.org or @DamienTgOrgBot
 """
 
 helptext2 = """
@@ -23,14 +25,9 @@ You can also cancel current operation with /start
 """
 
 tiptext1 = """
-**💡 Tip (1 of 1)**
+**💡 Extra Help:**
 
-Follow [Pokurt](https://github.com/pokurt) for more awesome projects like this!
-Make sure you give a star to [PSM](https://github.com/pokurt/Pyrogram-SessionMaker-Bot)
+If you don't understand properly and need more help than ask in [Support Group](t.me/damienhelp)
 
-**Note**:
-Since there will be Forks of this bot I suggest you to make your own one from Source.
-I (Pokurt) Personally made this for experimental purposes only, therefore the source is open.
-Your phone number and other confidential details are not saved in anyway anymore.
-Make sure you clear the chat history of this bot if you do not trust and take a look at the Source itself.
+Developer: @AmineSoukara 
 """
