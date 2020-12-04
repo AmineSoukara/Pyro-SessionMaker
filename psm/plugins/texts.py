@@ -7,7 +7,7 @@ By @DamienSoukara
 """
 
 helptext1 = """
-[📖](https://i.imgur.com/6jqpx7g.jpg) **Help (1 of 3)**
+[📖](https://telegra.ph/file/cb21cbd80fa9453725354.jpg) **Help (1 of 3)**
 you can get API_ID and API_HASH value by visiting https://my.telegram.org or @DamienTgOrgBot
 """
 
@@ -25,7 +25,7 @@ You can also cancel current operation with /start
 """
 
 tiptext1 = """
-[💡](https://i.imgur.com/hxv8w4M.png) **Extra Help:**
+[💡](https://telegra.ph/file/8f04fa00c2c1e596acc62.jpg) **Extra Help:**
 
 If you don't understand properly and need more help than ask in [Support Group](t.me/damienhelp)
 
