@@ -1,6 +1,6 @@
 class strings(object):
-    APIID = "Send me your `API_ID` you can find it on my.telegram.org after you logged in."
-    APIHASH = "Send me your `API_HASH` you can find it on my.telegram.org after you logged in."
+    APIID = "Send me your `API_ID` you can find it on my.telegram.org Or @DamienTgOrgBot after you logged in."
+    APIHASH = "Send me your `API_HASH` you can find it on my.telegram.org Or @DamienTgOrgBot after you logged in."
     PHONETOKEN = "Now send me your `phone number` in international format or your `bot_token`"
     ERROR = "**Something went wrong:** ```{err}```"
     FLOODWAIT = "I cannot create session for you.\nYou have a floodwait of: `{e.x} seconds`"
