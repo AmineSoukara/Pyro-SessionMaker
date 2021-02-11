@@ -17,7 +17,6 @@ async def help_button(_, query):
     buttons = [[InlineKeyboardButton("Next ➡️", callback_data="help_2")]]
     await query.message.edit(
         helptext1,
-        disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(buttons),
     )
     await query.answer()
@@ -59,7 +58,6 @@ async def tip_button1(_, query):
     ]
     await query.message.edit(
         tiptext1,
-        reply_markup=InlineKeyboardMarkup(buttons),
-        disable_web_page_preview=True,
+        reply_markup=InlineKeyboardMarkup(buttons)
     )
     await query.answer()
